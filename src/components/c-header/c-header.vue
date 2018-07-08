@@ -17,8 +17,9 @@
         position: relative
         height: 44px
         text-align: center
-        color: $color-theme
+        color: $color-background-c
         font-size: 0
+        background-color $color-theme
         .text
             display: inline-block
             vertical-align: top

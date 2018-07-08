@@ -117,6 +117,9 @@ export default {
         this.slider.goToPage(pageIdx, 0, 400);
       }, this.interval);
     }
+  },
+  destroyed () {
+    clearTimeout(this.timer)
   }
 };
 </script>
